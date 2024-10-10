@@ -1,0 +1,70 @@
+2024-10-10 09:46:27,319 - INFO - Data loaded successfully from ../data/telegram_data.csv
+2024-10-10 09:46:27,330 - INFO - Duplicates removed
+2024-10-10 09:46:27,335 - INFO - Missing values handled
+2024-10-10 09:46:27,366 - INFO - Date formats standardized
+2024-10-10 09:46:27,366 - INFO - Data validated successfully
+2024-10-10 09:46:27,873 - ERROR - Error storing cleaned data: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "ethio_med_data" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-10-10 09:46:27,900 - INFO - DBT project EthioMed_DBT_Project initialized successfully
+2024-10-10 09:46:27,920 - INFO - DBT models ran successfully
+2024-10-10 09:46:27,942 - INFO - DBT testing completed
+2024-10-10 09:46:27,989 - INFO - DBT documentation generated and served
+2024-10-10 09:46:37,857 - INFO - Data loaded successfully from ../data/telegram_data.csv
+2024-10-10 09:46:37,867 - INFO - Duplicates removed
+2024-10-10 09:46:37,869 - INFO - Missing values handled
+2024-10-10 09:46:37,884 - INFO - Date formats standardized
+2024-10-10 09:46:37,884 - INFO - Data validated successfully
+2024-10-10 09:46:37,943 - ERROR - Error storing cleaned data: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "ethio_med_data" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-10-10 09:46:37,959 - INFO - DBT project EthioMed_DBT_Project initialized successfully
+2024-10-10 09:46:37,972 - INFO - DBT models ran successfully
+2024-10-10 09:46:37,987 - INFO - DBT testing completed
+2024-10-10 09:46:38,016 - INFO - DBT documentation generated and served
+2024-10-10 09:58:11,053 - INFO - Data loaded successfully from ../data/telegram_data.csv
+2024-10-10 09:58:11,064 - INFO - Duplicates removed
+2024-10-10 09:58:11,070 - INFO - Missing values handled
+2024-10-10 09:58:11,084 - INFO - Date formats standardized
+2024-10-10 09:58:11,084 - INFO - Data validated successfully
+2024-10-10 09:58:11,136 - ERROR - Error storing cleaned data: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "ethio_med_data" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-10-10 09:58:11,170 - INFO - DBT project EthioMed_DBT_Project initialized successfully
+2024-10-10 09:58:11,186 - INFO - DBT models ran successfully
+2024-10-10 09:58:11,201 - INFO - DBT testing completed
+2024-10-10 09:58:11,233 - INFO - DBT documentation generated and served
+2024-10-10 10:02:43,490 - ERROR - Error loading data: [Errno 22] Invalid argument: '..\\data\telegram_data.csv'
+2024-10-10 10:03:52,883 - INFO - Data loaded successfully from ../data/telegram_data.csv
+2024-10-10 10:04:59,974 - INFO - Data loaded successfully from ../data/telegram_data.csv
+2024-10-10 10:15:41,927 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2024-10-10 10:15:41,930 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2024-10-10 10:16:04,408 - INFO - Data loaded successfully from ../data/telegram_data.csv
+2024-10-10 10:28:55,444 - INFO - Data loaded successfully from ../data/telegram_data.csv
+2024-10-10 10:29:59,606 - INFO - Data loaded successfully from ../data/telegram_data.csv
+2024-10-10 10:31:23,891 - INFO - Data loaded successfully from ../data/telegram_data.csv
+2024-10-10 10:33:37,646 - INFO - Duplicates removed
+2024-10-10 10:33:37,650 - INFO - Filled missing Media Path values with placeholder
+2024-10-10 10:33:37,656 - INFO - Dropped rows with missing Message values
+2024-10-10 10:33:37,687 - INFO - Date formats standardized
+2024-10-10 10:33:37,687 - INFO - Data validated successfully
+2024-10-10 10:37:01,073 - INFO - Data loaded successfully from ../data/telegram_data.csv
+2024-10-10 10:37:10,955 - INFO - Duplicates removed
+2024-10-10 10:37:10,958 - INFO - Filled missing Media Path values with placeholder
+2024-10-10 10:37:10,965 - INFO - Dropped rows with missing Message values
+2024-10-10 10:37:10,989 - INFO - Date formats standardized
+2024-10-10 10:37:10,990 - INFO - Data validated successfully
+2024-10-10 10:39:29,261 - INFO - Data loaded successfully from ../data/telegram_data.csv
+2024-10-10 10:39:47,940 - INFO - Duplicates removed
+2024-10-10 10:39:47,943 - INFO - Filled missing Media Path values with placeholder
+2024-10-10 10:39:47,950 - INFO - Dropped rows with missing Message values
+2024-10-10 10:39:47,986 - INFO - Date formats standardized
+2024-10-10 10:39:47,987 - INFO - Data validated successfully
+2024-10-10 10:41:48,729 - INFO - Duplicates removed
+2024-10-10 10:41:48,732 - INFO - Filled missing Media Path values with placeholder
+2024-10-10 10:41:48,739 - INFO - Dropped rows with missing Message values
+2024-10-10 10:41:48,776 - INFO - Date formats standardized
+2024-10-10 10:45:33,740 - ERROR - Error storing cleaned data: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "ethio_med_data" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-10-10 10:52:16,916 - INFO - DBT project ethio_med_data initialized successfully

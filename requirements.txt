@@ -1,2 +1,5 @@
 python-dotenv
 telethon
+psycopg2
+pandas
+sqlalchemy

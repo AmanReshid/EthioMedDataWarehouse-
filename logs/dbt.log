@@ -1,0 +1,29 @@
+[0m10:03:51.811271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015350DA1940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015350DA2B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015350DA06B0>]}
+
+
+============================== 10:03:51.819004 | bc7be0bf-5b43-428a-a258-e760ff07a7ca ==============================
+[0m10:03:51.819004 [info ] [MainThread]: Running with dbt=1.8.7
+[0m10:03:51.821004 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\a\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init EthioMedDataWareHouse', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:03:51.879312 [debug] [MainThread]: Starter project path: C:\Users\a\Documents\GitHub\EthioMedDataWarehouse-\venv\Lib\site-packages\dbt\include\starter_project
+[0m10:03:51.905192 [info ] [MainThread]: 
+Your new dbt project "EthioMedDataWareHouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:03:51.908186 [info ] [MainThread]: Setting up your profile.
+[0m10:07:22.194232 [info ] [MainThread]: Profile EthioMedDataWareHouse written to C:\Users\a\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:07:22.199228 [debug] [MainThread]: Command `dbt init` succeeded at 10:07:22.199228 after 210.57 seconds
+[0m10:07:22.201227 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015351673F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001535131F6B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000153515475C0>]}
+[0m10:07:22.202226 [debug] [MainThread]: Flushing usage events
+[0m10:07:23.277608 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.

@@ -3,3 +3,6 @@ telethon
 psycopg2
 pandas
 sqlalchemy
+dbt-core
+dbt-postgres
+emoji

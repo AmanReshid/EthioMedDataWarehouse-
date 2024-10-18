@@ -64,7 +64,7 @@ def store_cleaned_data(df, table_name):
     Store the cleaned data into a PostgreSQL database.
     """
     try:
-        db_url = os.getenv('DATABASE_URL')  # Make sure to define this in the .env file
+        db_url = os.getenv('DATABASE_URL')  
         engine = create_engine(db_url)
         
         # Store the cleaned data into PostgreSQL
